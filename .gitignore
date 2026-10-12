@@ -1,0 +1,55 @@
+# Python bytecode & caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyTorch intermediate checkpoints & raw datasets
+data/raw/
+data/processed/
+*.tif
+*.tiff
+*.hgt
+weights/checkpoint_*.pt
+!weights/wgan_terrain_final.pt
+
+# Generated 3D meshes & temporary outputs (keep publication figures)
+outputs/*.obj
+outputs/samples/
+outputs/interpolations/
+
+# LaTeX build artifacts (keep .tex, .cls, and compiled .pdf)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.lof
+*.log
+*.lot
+*.out
+*.synctex.gz
+*.toc
+
+# Agent scratchpad & IDE/OS metadata
+SCRATCHPAD.md
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
